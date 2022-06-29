@@ -8,22 +8,39 @@
   </head>
 
   <body>
-    <div id="status-bar"> </div>
-        <div class="status-bar__column"></div>
+    <div class="status-bar">
+        <div class="status-bar__column">
             <span>No Service</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd" />
-              </svg> <!--와이파이 아이콘-->
-        <div class="status-bar__column"></div>
+            <i class="fa-solid fa-wifi"></i> <!--와이파이 아이콘-->
+        </div>
+        <div class="status-bar__column">
             <span>15:00</span>
-        <div class="status-bar__column"></div>
+        </div>
+        <div class="status-bar__column">
             <span>15%</span>
                 <i class="fa-solid fa-battery-quarter"></i> <!--배터리 아이콘-->
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
-              </svg> <!--충전표시 아이콘-->
-        
-              <script src="https://kit.fontawesome.com/c2295807e7.js" crossorigin="anonymous"></script>
+                <i class="fa-solid fa-bolt"></i> <!--충전표시 아이콘-->
+        </div>
+    </div>    
+
+
+    <header class="Welcome-header">
+        <h1 class="Welcome_header__title"> Welcome to KokoaTalk </h1>
+        <p class="Welcome_header__text">
+            코코아톡 계정이 이미 있다면, 이메일 또는 전화번호로 로그인하세요.
+        </p>
+    </header>
+
+    <form class="login-form">
+        <input type="text" placeholder="이메일 또는 전화번호">
+        <input type="password" placeholder="비밀번호">
+        <input type="submit" value="로그인">
+        <input type="button" value="회원가입">
+        <a href="#">계정 또는 비밀번호 찾기</a>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/c2295807e7.js" crossorigin="anonymous"></script>
 
   </body>
 </html>
