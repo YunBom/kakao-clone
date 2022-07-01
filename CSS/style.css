@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* 영어 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); /* 한글 폰트 */
 @import "status-bar.css"; /*상태바 스타일*/
+@import "variables.css"; 
 
-body {
-    font-family: 'Open Sans', sans-serif;
+
+input:focus {
+    outline: none;
 }
 
+body {
+    font-family: 'Noto Sans KR';
+}
+
+
+/* 환영문구 인사 */
 
 .Welcome-header {
     margin-top: 80px;
@@ -16,6 +25,7 @@ body {
 }
 .Welcome-header__title {
     margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .Welcome-header__text {
     display:flex;
@@ -23,3 +33,59 @@ body {
     width: 50%;
     opacity:0.6;
 }
+
+
+
+
+/* 로그인 입력란 */
+
+.login-form {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 30px;   
+}
+
+.login-form input {
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: larger;
+}
+
+.login-form input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.login-form .login-form__btn {
+    padding: 10px;
+    margin: 5px;
+    border-bottom: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.login-form input:focus {
+    border-color: var(--yellow);
+}
+
+.login-form__btn:hover {
+    background-color: #dddbdb;
+}
+
+.login-form a {
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+
+
+
