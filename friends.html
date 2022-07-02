@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css">
     
-    <title>Welcome to KokoaTalk</title>
+    <title>친구목록 - 코코아톡</title>
   </head>
 
   <body>
@@ -26,20 +26,19 @@
     </div>    
 
 
-    <header class="Welcome-header">
-        <h1 class="Welcome-header__title"> Welcome to KokoaTalk </h1>
-        <p class="Welcome-header__text">
-            코코아톡 계정이 이미 있다면, 이메일 또는 전화번호로 로그인하세요.
-        </p>
-    </header>
 
-    <form action="friends.html" method="get" class="login-form">
-        <input class="login-form__enter" type="text" placeholder="이메일 또는 전화번호">
-        <input class="login-form__enter" type="password" placeholder="비밀번호">
-        <input class="login-form__btn" type="submit" value="로그인">
-        <input class="login-form__btn" type="button" value="회원가입">
-        <a href="#">계정 또는 비밀번호 찾기</a>
-    </form>
+<!--하단의 네비게이션 바-->
+    <nav class="nav">
+        <ul class="nav__list">
+<!--친구--> <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-lg"></i></a></li>
+<!--채팅--> <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-regular fa-comment fa-lg"></i></a></li>
+<!--검색--> <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+<!--찾기--> <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-lg"></i></a></li>
+        </ul>
+    </nav>
+
+
+
 
     <script src="https://kit.fontawesome.com/c2295807e7.js" crossorigin="anonymous"></script>
 

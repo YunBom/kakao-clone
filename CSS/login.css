@@ -1,0 +1,83 @@
+body {
+    font-family: 'Noto Sans KR';
+}
+
+
+input:focus {
+    outline: none;
+}
+
+/* 환영문구 인사 */
+
+.Welcome-header {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Welcome-header__title {
+    margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:25px;
+    font-weight: bold;
+}
+.Welcome-header__text {
+    display:flex;
+    text-align: center;
+    width: 50%;
+    opacity:0.6;
+}
+
+
+
+
+/* 로그인 입력란 */
+
+.login-form {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 30px;   
+}
+
+.login-form input {
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: larger;
+}
+
+.login-form input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.login-form .login-form__btn {
+    padding: 10px;
+    margin: 5px;
+    border-bottom: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.login-form input:focus {
+    border-color: var(--yellow);
+}
+
+.login-form__btn:hover {
+    background-color: #dddbdb;
+}
+
+.login-form a {
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size: 13px;
+    margin-top: 15px;
+}
