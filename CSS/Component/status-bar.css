@@ -2,8 +2,12 @@
 .status-bar {
     display:flex;
     justify-content: space-between;
-    margin: 5px 5px;
     font-family: 'Open Sans', sans-serif;
+    position:fixed;
+    padding: 5px 10px;
+    top:0;
+    width:100%;
+    box-sizing: border-box;
 }
 .status-bar__column {
     width:33%;

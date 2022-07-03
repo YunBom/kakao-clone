@@ -1,6 +1,39 @@
+body {
+    height:300vh;
+}
+
+.nav {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+}
+
 .nav__list {
     display:flex;
     justify-content: space-between;
     background-color: #f9f9fa;
     padding: 20px 50px;
+    border-top: 1px solid rgba(206, 206, 206, 0.8);
 }
+
+.nav__link {
+    color: #2F363E;
+    position:relative;  /* nav__notification의 position:absolute를 쓰려면 부모 엘리먼트인 nav__link의 position이 relative여야 함.*/
+}
+.nav__notification {
+    font-family: Noto sans-serif;
+    font-weight: 600;
+    background-color: #FF6229;
+    color:white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute; /*absolute를 쓰려면 부모 엘리먼트가 position:relative 여야 할 것.*/
+    left: 20px;
+    bottom: 16px;
+}
+
