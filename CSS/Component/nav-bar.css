@@ -37,3 +37,13 @@ body {
     bottom: 16px;
 }
 
+.nav__red-dot {     /* 메뉴의 빨간 점*/
+    background-color: #FF6229;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    display: flex;
+    position:absolute;
+    left: 25px;
+    top: -12px;
+}

@@ -9,6 +9,8 @@
     <title>친구목록 - 코코아톡</title>
   </head>
 
+
+<!--상태바-->
   <body>
     <div class="status-bar">
         <div class="status-bar__column">
@@ -24,6 +26,27 @@
                 <i class="fa-solid fa-bolt fa-sm"></i> <!--충전표시 아이콘-->
         </div>
     </div>    
+
+
+
+<!--스크린 헤더-->
+    <header class="screen-header">
+        <h1 class="screen-header__title">친구</h1>
+        <div class="screen-header__icon">
+<!--검색--> <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+<!--음악--> <span><i class="fa-solid fa-music fa-lg"></i></span>     
+<!--설정--> <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+
+    </header>
+
+
+
+<!--내 프로필-->
+<a id="friends-display-link">
+  <i class="fa-solid fa-circle-info"></i> 친구 이름 보기 
+  <i class="fa-solid fa-chevron-right fa-xs"></i>
+</a>
 
 
 
@@ -46,8 +69,9 @@
                 <i class="fa-solid fa-magnifying-glass fa-2x"></i>
               </a>
             </li>
-<!--찾기--> <li class="nav__btn">
+<!--메뉴--> <li class="nav__btn">
               <a class="nav__link" href="#">
+<!--메뉴 홍점--> <span class="nav__red-dot"></span>
                 <i class="fa-solid fa-ellipsis fa-2x"></i>
               </a>
             </li>
