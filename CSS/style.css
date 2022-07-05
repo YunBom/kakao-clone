@@ -6,14 +6,16 @@
 
 @import "variables.css"; /* 변수 */
 
-@import "login.css"; /*로그인 화면 CSS*/
+/* Screen 폴더 */
+@import "Screen/login.css"; /*로그인 화면 CSS*/
+@import "Screen/friends.css"; /* 친구목록 화면 CSS */
 
 
-/* Compnent */
+/* Compnent 폴더 */
 @import "Component/status-bar.css"; /*상태바 CSS*/
 @import "Component/nav-bar.css"; /*하단 메뉴 CSS*/
-
-
+@import "Component/screen-header.css"; /* 스크린 헤더 CSS */
+@import "Component/user-component.css"; /* 유저 프로필 CSS */
 
 
 

@@ -8,6 +8,7 @@
     top:0;
     width:100%;
     box-sizing: border-box;
+    background-color: white;
 }
 .status-bar__column {
     width:33%;
