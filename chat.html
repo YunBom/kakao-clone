@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css">
     
-    <title>친구목록 - 코코아톡</title>
+    <title>채팅목록 - 코코아톡</title>
   </head>
 
 
@@ -31,62 +31,34 @@
 
 <!--스크린 헤더-->
     <header class="screen-header">
-        <h1 class="screen-header__title">친구</h1>
+        <h1 class="screen-header__title">채팅</h1>
         <div class="screen-header__icon">
 <!--검색--> <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+<!--+챗-->  <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
 <!--음악--> <span><i class="fa-solid fa-music fa-lg"></i></span>     
 <!--설정--> <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
-
     </header>
 
+ 
 
 
-<!--친구목록 보기 알림창-->
-<a id="friends-display-link">
-  <i class="fa-solid fa-circle-info"></i> 친구 이름 보기 
-  <i class="fa-solid fa-chevron-right fa-xs"></i>
-</a>
+<!--채팅목록-->
+      <div class="main-screen">
 
-
-
-
-<!--친구메인-->
-<main class="friends-screen">
-        <div class="user-component">
-        <div class="user-component__column">
-<!--프사-->   <img src="사진파일/profile.jpg" class="user-component-avatar__lg">
-              <div class="user-component__text">
-<!--이름-->   <h4 class="user-component__title">BomYi</h4>
-<!--챗요소 <h6 class="user-component__subtitle"> 테스트 카톡내용</h6> -->
-              </div>
-        </div>
-        <div class="user-component__column"></div>
-        </div>
-
-
-
-    <!--친구메인__채널-->
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-              <span>Channel</span>
-              <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-          <!--친구메인__채널 프로필-->
+    <!--챗목록__채널 프로필-->
       <div class="user-component">
         <div class="user-component__column">
            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA4MDFfNzcg%2FMDAxNTk2MjE1ODAyMjU3.5XmOF-HorRdmZcmxfqe8_GoMh6-qIXpYGci_VzYJjEMg.GK9nkT1TtRQTzELaKabWn8x861fUL8EhN3oNWKZi6xQg.JPEG.ygswjh%2Fimage.jpg&type=sc960_832" 
-           class="user-component-avatar__sm">
+           class="user-component-avatar__m">
             <div class="user-component__text">
-               <h4 class="user-component__title-notbold">채널</h4>
-<!--챗요소 <h6 class="user-component__subtitle"> 테스트 카톡내용</h6> -->
+               <h4 class="user-component__title-notbold">카카오톡 채널</h4>
+<!--챗내용-->   <h6 class="user-component__subtitle"> 내 카카오 계정 정보를 확인해주세요 </h6>
             </div>
         </div>
         <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xs"></i>
-            </div>
+            <span class="user-component__time">11:13</span>
+            <span class="red-badge">1</span>
         </div>
       </div>              
 
@@ -99,24 +71,24 @@
         <ul class="nav__list">
 <!--친구--> <li class="nav__btn">
               <a class="nav__link" href="friends.html">
-                <i class="fa-solid fa-user fa-2x"></i>
+                <i class="fa-regular fa-user fa-2x"></i>
               </a>
             </li>
 <!--채팅--> <li class="nav__btn">
               <a class="nav__link" href="chat.html">
                   <span class="nav__notification">1</span> <!--채팅:알림표시-->
-                  <i class="fa-regular fa-comment fa-2x"></i>
+                  <i class="fa-solid fa-comment fa-2x"></i>
               </a>
             </li>
 <!--검색--> <li class="nav__btn">
-              <a class="nav__link" href="#">
+              <a class="nav__link" href="search.html">
                 <i class="fa-solid fa-magnifying-glass fa-2x"></i>
               </a>
             </li>
-<!--메뉴--> <li class="nav__btn">
-              <a class="nav__link" href="#">
-<!--메뉴 홍점--> <span class="nav__red-dot"></span>
-                <i class="fa-solid fa-ellipsis fa-2x"></i>
+<!--more--> <li class="nav__btn">
+              <a class="nav__link" href="more.html">
+<!--more 홍점--> <span class="nav__red-dot"></span>
+                 <i class="fa-solid fa-ellipsis fa-2x"></i>
               </a>
             </li>
         </ul>

@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    padding-bottom: 0;
 }
 
 .screen-header__icon span{

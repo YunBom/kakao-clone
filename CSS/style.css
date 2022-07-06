@@ -16,9 +16,12 @@
 @import "Component/nav-bar.css"; /*하단 메뉴 CSS*/
 @import "Component/screen-header.css"; /* 스크린 헤더 CSS */
 @import "Component/user-component.css"; /* 유저 프로필 CSS */
+@import "Component/red-badge.css";  /* 알람 표시 CSS */
 
 
-
+.main-screen {
+    padding:0px var(--horizontal-space);
+}
 
 
 

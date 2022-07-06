@@ -8,34 +8,52 @@
     align-items: center;
     margin-top: 5px;
 }
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 .user-component-avatar__lg {    /* 큰프사 */
-    width: 70px;    /* 중간 사이즈 */
+    width: 70px;
     height: 70px;
     border-radius: 28px;
     margin-right: 20px;
 }
-.user-component-avatar__medium {    /* 중간프사 */
-    width: 60px;    /* 중간 사이즈 */
+.user-component-avatar__m{    /* 중간프사 */
+    width: 60px;
     height: 60px;
-    border-radius: 28px;
+    border-radius: 23px;
     margin-right: 20px;
 }
 .user-component-avatar__sm {    /* 작은프사 */
-    width: 50px;    /* 중간 사이즈 */
+    width: 50px;
     height: 50px;
     border-radius: 20px;
     margin-right: 20px;
 }
-
 .user-component__title {
     display:flex;
     font-weight: 600;
     font-size: 20px;
     margin:0;
 }
-
 .user-component__subtitle {
-    margin-top: 8px;
+    margin-top: 10px;
     color:rgba(0, 0, 0, 0.4)
+}
+.user-component__title-notbold {    /*Friends 카톡 채널*/
+    font-weight: 500;
+}
+
+.user-component__title-notbold {    /* chat 카카오톡 채널 */
+    padding-top: 5px;
+}
+
+
+.user-component__time { /* friends 챗목록 채팅시간 */
+    display:block;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.3)
 }
