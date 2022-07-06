@@ -1,0 +1,33 @@
+.find-icons {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.find-icons__icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-icons__icon i {
+    font-size: 30px;
+}
+.find-icons__icon span {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.recommended-friends {   /*추천친구*/
+    padding: 25px 0px;
+    border-bottom: var(--main-border);
+    border-top: var(--main-border);
+}
+.recommended-friends__title {
+    color: rgba(0,0,0,0.5);
+}
+.recommended-friends span {
+    display:block;
+    margin: 100px 0;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}

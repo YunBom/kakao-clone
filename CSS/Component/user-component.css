@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .user-component,
@@ -43,11 +44,12 @@
     margin-top: 10px;
     color:rgba(0, 0, 0, 0.4)
 }
-.user-component__title-notbold {    /*Friends 카톡 채널*/
+.user-component__friends-title-notbold {    /*Friends 카톡 채널*/
     font-weight: 500;
 }
 
-.user-component__title-notbold {    /* chat 카카오톡 채널 */
+.user-component__chat-title-notbold {    /* chat 카카오톡 채널 */
+    font-weight: 600;
     padding-top: 5px;
 }
 
@@ -56,4 +58,20 @@
     display:block;
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.3)
+}
+
+
+.screen-header__icon {
+    position:relative;  /*홍점을 위해 부모 엘리먼트를 relative 설정*/
+}
+
+.find__red-dot {    /*작은 홍점*/
+    background-color: #FF6229;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    display: flex;
+    position: absolute;
+    right: -5px;
+    top:-5px;
 }

@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     background-color: #f9f9fa;
     padding: 20px 50px;
-    border-top: 1px solid rgba(206, 206, 206, 0.8);
+    border-top: var(--main-border);
 }
 
 .nav__link {
@@ -37,7 +37,7 @@ body {
     bottom: 16px;
 }
 
-.nav__red-dot {     /* 메뉴의 빨간 점*/
+.nav__red-dot {     /* 빨간 점*/
     background-color: #FF6229;
     width: 7px;
     height: 7px;

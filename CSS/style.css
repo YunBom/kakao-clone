@@ -9,6 +9,7 @@
 /* Screen 폴더 */
 @import "Screen/login.css"; /*로그인 화면 CSS*/
 @import "Screen/friends.css"; /* 친구목록 화면 CSS */
+@import "Screen/find.css";  /* 검색창 화면 CSS */
 
 
 /* Compnent 폴더 */
