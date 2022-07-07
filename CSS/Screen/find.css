@@ -31,3 +31,15 @@
     text-align: center;
     color: rgba(0,0,0,0.5);
 }
+
+
+/* 오픈챗 */
+.open-chat__header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity:0.5;
+}
+.open-chat__header span {
+    opacity:0.8;
+}
