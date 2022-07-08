@@ -39,7 +39,6 @@
     justify-content: space-between;
     align-items: center;
     opacity:0.5;
-    margin-bottom: 20px;
 }
 .open-chat__header span {
     opacity:0.8;
@@ -48,14 +47,74 @@
 /*오픈 포스트*/
 .open-post {
     display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .open-post__title {
     font-weight: 600;
     font-size: larger;
 }
-.open-post__hasgtag {
+.open-post__hashtag {
     box-sizing: border-box;
-    margin-top: 5px;
+    margin: 7px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: 0.3
+}
+.open-post__members {
+    display:flex;
+    align-items: center;
+
+}
+.open-post__members img {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    margin-right: 7px;
+}
+.open-post__member-count { 
+    opacity:0.4;
+}
+
+.open-post__members .divider {  /*오픈챗 divider 작대기*/
+    width: 1px;
+    height:15px;
+    background-color: rgba(0,0,0,0.3);
+    position:relative;
+    top: 2px;
+    margin: 0px 5px;
+}
+.open-post__status{
+    color:#FF63C3;
+}
+
+.open-post__thumbnail img{
+    width: 120px;
+    height:120px;
+    border-radius: 10%;
+}
+
+.open-post__thumbnail {
+    position:relative;
+}
+.open-post__heart-count {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    position:absolute;
+    bottom: 7px;
+    right:7px;
+}
+.open-post__heart-count span {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.user-component__column i {
+    color:black;
 }
 

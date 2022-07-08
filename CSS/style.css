@@ -1,16 +1,9 @@
 @import "reset.css";
-
 /* 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* 영어 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); /* 한글 폰트 */
 
 @import "variables.css"; /* 변수 */
-
-/* Screen 폴더 */
-@import "Screen/login.css"; /*로그인 화면 CSS*/
-@import "Screen/friends.css"; /* 친구목록 화면 CSS */
-@import "Screen/find.css";  /* 검색창 화면 CSS */
-
 
 /* Compnent 폴더 */
 @import "Component/status-bar.css"; /*상태바 CSS*/
@@ -18,6 +11,14 @@
 @import "Component/screen-header.css"; /* 스크린 헤더 CSS */
 @import "Component/user-component.css"; /* 유저 프로필 CSS */
 @import "Component/red-badge.css";  /* 알람 표시 CSS */
+@import "Component/icons.css";   /* 아이콘 */
+
+/* Screen 폴더 */
+@import "Screen/login.css"; /*로그인 화면 CSS*/
+@import "Screen/friends.css"; /* 친구목록 화면 CSS */
+@import "Screen/find.css";  /* 검색창 화면 CSS */
+@import "Screen/more.css";  /* 더보기 화면 CSS */
+
 
 
 .main-screen {

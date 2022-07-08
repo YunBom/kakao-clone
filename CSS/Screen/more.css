@@ -1,0 +1,22 @@
+.user-component__more-subtitle {
+    opacity:0.5;
+}
+
+/*느낌표*/
+.more-contact {
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.red-exclamation {
+    font-family: sans-serif;
+    color: red;
+    border:1px solid red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 7px;
+}
