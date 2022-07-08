@@ -39,7 +39,23 @@
     justify-content: space-between;
     align-items: center;
     opacity:0.5;
+    margin-bottom: 20px;
 }
 .open-chat__header span {
     opacity:0.8;
 }
+
+/*오픈 포스트*/
+.open-post {
+    display:flex;
+}
+
+.open-post__title {
+    font-weight: 600;
+    font-size: larger;
+}
+.open-post__hasgtag {
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
