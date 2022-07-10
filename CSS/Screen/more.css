@@ -2,6 +2,46 @@
     opacity:0.5;
 }
 
+.more-screen .icon-row {
+    margin-top: 40px;
+}
+
+/* 추천 */
+.more-suggestions {
+    margin-top: 20px;
+    border-top: var(--main-border);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.more-suggestion__title {
+    font-size: larger;
+}
+.more-suggestion__icons {
+    display:flex;
+}
+.more-suggestion__icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:30px;
+}
+.more-suggestion__icon-image {
+    width:60px;
+    height:60px;
+    background-color: var(--yellow);
+    color:white;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom:10px;
+}
+.more-suggestion__icon-text {
+    opacity:0.7;
+}
+
+
 /*느낌표*/
 .more-contact {
     display:flex;
@@ -11,6 +51,7 @@
 .red-exclamation {
     font-family: sans-serif;
     color: red;
+    font-weight: 600;
     border:1px solid red;
     border-radius: 50%;
     width: 15px;

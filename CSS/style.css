@@ -12,12 +12,15 @@
 @import "Component/user-component.css"; /* 유저 프로필 CSS */
 @import "Component/red-badge.css";  /* 알람 표시 CSS */
 @import "Component/icons.css";   /* 아이콘 */
+@import "component/alt-screen-header.css"; /*설정, 채팅 다른 header*/
 
 /* Screen 폴더 */
 @import "Screen/login.css"; /*로그인 화면 CSS*/
 @import "Screen/friends.css"; /* 친구목록 화면 CSS */
 @import "Screen/find.css";  /* 검색창 화면 CSS */
 @import "Screen/more.css";  /* 더보기 화면 CSS */
+@import "Screen/settings.css"; /* 설정 화면 */
+@import "Screen/chat-talk.css"; /* 톡방 화면 */
 
 
 

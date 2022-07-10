@@ -1,0 +1,9 @@
+#chat-talk-screen{
+    background-color: #ABC1D1;
+}
+#chat-talk-screen .status-bar {
+    background-color: #ABC1D1;
+}
+.chat-talk__bar-icon i{
+    margin-left: 15px;
+}

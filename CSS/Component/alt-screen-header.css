@@ -1,0 +1,18 @@
+.alt-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+}
+.alt-header__column:first-child {
+    width: 33%;
+}
+.alt-header__column:last-child {
+    width: 33%;
+    display: flex;
+    justify-content: end;
+}
+.alt-header__column i {
+    font-size: 25px;
+}
+

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css">
     
-    <title>더보기</title>
+    <title>더보기-코코아톡</title>
   </head>
 
 
@@ -35,7 +35,7 @@
         <div class="screen-header__icon">
 <!--검색--> <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
 <!--음악--> <span><i class="fa-solid fa-music fa-lg"></i></span> 
-<!--설정--> <span><i class="fa-solid fa-gear fa-lg"></i></span>
+<!--설정--> <span><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
 <!--홍점--> <span class="find__red-dot"></span>
         </div>
     </header>
@@ -43,7 +43,7 @@
  
 
 
-<main class="main-screen">
+<main class="main-screen more-screen">
 
     <div class="user-component">
         <div class="user-component__column">
@@ -80,22 +80,41 @@
             <span>테마</span>
         </div>
 
-    <!--
+    <!--추가 아이콘
         <div class="icon-row__icon">
         <i class="fa-regular fa-envelope"></i>
-            <span>테마</span>
+            <span>계정</span>
         </div>
         <div class="icon-row__icon">
             <i class="fa-regular fa-envelope"></i>
-            <span>테마</span>
+            <span>오픈챗</span>
         </div>
     -->
-    
+    </div> <!--여기까지 icon-row-->
+
+
+
+    <div class="more-suggestions">
+        <h4 class="more-suggestion__title"> 추천 </h4>
+
+        <div class="more-suggestion__icons"> <!--추천 아이콘-->
+            <div class="more-suggestion__icon">
+                <div class="more-suggestion__icon-image">
+                    <i class="fa-solid fa-quote-right fa-2x"></i>
+                </div>
+                <span class="more-suggestion__icon-text"> 카카오 스토리 </span>
+            </div>
+
+            <div class="more-suggestion__icon">
+                <div class="more-suggestion__icon-image">
+                    <i class="fa-solid fa-paw fa-2x"></i>
+                </div>
+                <span class="more-suggestion__icon-text"> 카카오 프렌즈 </span>
+            </div>
+        </div>
     </div>
 
-
 </main>
-
 
 <!--하단의 네비게이션 바-->
     <nav class="nav">

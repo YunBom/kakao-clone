@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title>설정-코코아톡</title>
+  </head>
+
+
+<!--상태바-->
+  <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i> <!--와이파이 아이콘-->
+        </div>
+        <div class="status-bar__column">
+            <span>15:00</span>
+        </div>
+        <div class="status-bar__column">
+            <span>15%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i> <!--배터리 아이콘-->
+                <i class="fa-solid fa-bolt fa-sm"></i> <!--충전표시 아이콘-->
+        </div>
+    </div>    
+
+
+
+<!--설정창 헤더-->
+<header class="alt-header">
+
+    <div class="alt-header__column">
+      <a href="more.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+    </div>
+    <div class="alt-header__column">
+        <h2 class="alt-header__title">설정</h2>
+    </div>
+    <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+    </div>
+
+</header>
+
+
+<main class="main-screen">
+
+<!--설정 윗줄 리스트-->
+  <ul class="settings-list">
+    <li class="settings__setting">
+      <div class="settings__setting-column">  
+        <i class="fas fa-bullhorn"></i>
+        <span>공지</span>
+      </div>
+      <div class="settings__setting-column"></div>
+    </li>
+
+    <li class="settings__setting">
+      <div class="settings__setting-column">
+        <i class="fas fa-flask"></i>
+        <span>코코아 연구소</span>
+      </div>
+      <div class="settings__setting-column"></div>
+    </li>
+
+    <li class="settings__setting">
+      <div class="settings__setting-column">
+        <i class="fas fa-circle-info"></i>
+        <span>버전</span>
+      </div>
+      <div class="settings__setting-column">최신 버전</div>
+    </li>
+  </ul>
+<!--여기까지 설정 윗줄 리스트-->
+
+</main>
+
+
+<!--하단의 네비게이션 바-->
+    <nav class="nav">
+        <ul class="nav__list">
+<!--친구--> <li class="nav__btn">
+              <a class="nav__link" href="friends.html">
+                <i class="far fa-user fa-2x"></i>
+              </a>
+            </li>
+<!--채팅--> <li class="nav__btn">
+              <a class="nav__link" href="chat.html">
+                  <span class="nav__notification">1</span> <!--채팅:알림표시-->
+                  <i class="far fa-comment fa-2x"></i>
+              </a>
+            </li>
+<!--검색--> <li class="nav__btn">
+              <a class="nav__link" href="find.html">
+                <i class="fas fa-magnifying-glass fa-2x"></i>
+              </a>
+            </li>
+<!--more--> <li class="nav__btn">
+              <a class="nav__link" href="more.html">
+<!--more 홍점--> <span class="nav__red-dot"></span>
+                 <i class="fas fa-ellipsis fa-2x"></i>
+              </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <script src="https://kit.fontawesome.com/c2295807e7.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
