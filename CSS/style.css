@@ -23,6 +23,10 @@
 @import "Screen/chat-talk.css"; /* 톡방 화면 */
 
 
+body {
+    height:300vh;
+    margin-bottom: 90px;
+}
 
 .main-screen {
     padding:0px var(--horizontal-space);

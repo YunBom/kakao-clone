@@ -3,7 +3,28 @@
 }
 #chat-talk-screen .status-bar {
     background-color: #ABC1D1;
+    z-index: 1;
 }
-.chat-talk__bar-icon i{
-    margin-left: 15px;
+.chat-talk__bar-icon i {
+    margin-left: 20px;
+}
+
+
+
+/* 톡방 메인 화면 */
+.chat-talk__main {
+    margin-top: 100px;
+}
+
+
+/* 톡방 헤더 고정 */
+
+#chat-talk-screen .alt-header {
+    background-color: #ABC1D1;
+    margin-top:25px;
+    padding: 0 25px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    box-sizing: border-box;
 }
