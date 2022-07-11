@@ -1,5 +1,6 @@
 #chat-talk-screen{
     background-color: #ABC1D1;
+    margin-top:100px;
 }
 #chat-talk-screen .status-bar {
     background-color: #ABC1D1;
@@ -13,15 +14,71 @@
 
 /* 톡방 메인 화면 */
 .chat-talk__main {
-    margin-top: 100px;
+    margin-top: 120px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat-talk-time {
+    color:white;
+    background-color: #92A4B2;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: smaller;
+    font-weight: lighter;
 }
 
+/* 메인-메세지 */
+.message-row {
+    width:100%;
+    display:flex;
+    margin-bottom: 20px;
+}
+.message-row img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-right:12px;
+}
+.message__bubble {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border-top-left-radius: 0;
+    margin-top: 7px;
+}
+.message__info {
+    display:flex;
+    align-items: flex-end;
+}
+
+.message__time {
+    opacity: 0.5;
+    margin:0 10px;
+}
+.message__author {
+    opacity: 0.6;
+}
+
+/* 내 메세지 */
+.message-row--own {
+    justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0;
+    border-top-left-radius: 12px;
+}
+
+.message-row--own .message__info {
+    flex-direction: row-reverse;
+}
 
 /* 톡방 헤더 고정 */
-
 #chat-talk-screen .alt-header {
     background-color: #ABC1D1;
-    margin-top:25px;
+    margin-top:20px;
     padding: 0 25px;
     position:fixed;
     top:0px;
