@@ -106,21 +106,25 @@
     position:relative;
 }
 .reply input {
-    height: 40px;
+    padding:10px;
+    height: 46px;
     width: 100%;
+    box-sizing: border-box;
     border: 2px solid rgba(0,0,0,0.1);
     border-radius: 20px;
 }
-.reply__column:last-child > i,  /* class-A > i의 (>)는 바로 직속 아래에 있는 i를 선택.*/
+.reply__column:last-child > i,  /* 화살표 버튼 class-A > i의 (>)는 바로 직속 아래에 있는 i를 선택.*/
 .reply__column:last-child button {
     position: absolute;
-    right:-5px;
+    right:4px;
     top:4px;
 }
-
 .reply__column:last-child > i {  /*스마일 이모티콘*/
-    right: 50px;
+    right: 53px;
     top:7px;
+}
+.reply i {  /* 스마일, 플러스 이모티콘 */
+    opacity:0.5;
 }
 .reply__column button {
     background-color: var(--yellow);

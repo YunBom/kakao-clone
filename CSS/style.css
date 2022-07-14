@@ -9,7 +9,7 @@
 @import "Component/status-bar.css"; /*상태바 CSS*/
 @import "Component/nav-bar.css"; /*하단 메뉴 CSS*/
 @import "Component/screen-header.css"; /* 스크린 헤더 CSS */
-@import "Component/user-component.css"; /* 유저 프로필 CSS */
+@import "Component/user-component.css"; /* 유저 프로필 CSS - 화면 200vh */
 @import "Component/red-badge.css";  /* 알람 표시 CSS */
 @import "Component/icons.css";   /* 아이콘 */
 @import "component/alt-screen-header.css"; /*설정, 채팅 다른 header*/
@@ -23,14 +23,16 @@
 @import "Screen/chat-talk.css"; /* 톡방 화면 */
 
 
+
 body {
-    height:300vh;
+    height:200vh;
     margin-bottom: 90px;
 }
 
 .main-screen {
     padding:0px var(--horizontal-space);
 }
+
 
 
 
