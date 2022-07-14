@@ -98,4 +98,23 @@
 .user-component__column i {
     color:black;
 }
+@keyframes heart-beat {
+    0% {
+        color:white;
+        transform: none;
+    }
+    50% {
+        color:tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color:white;
+        transform: scale(1);
+    }
+}
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation:heart-beat 1s ease-in-out infinite;
+}
+
 

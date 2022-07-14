@@ -11,3 +11,18 @@
 .screen-header__icon i {
     font-size:25px;
 }
+
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icon .fa-gear:hover {
+    animation: rotateGear linear 3s infinite;
+}
+.screen-header__icon i:hover {
+    cursor: pointer;
+}

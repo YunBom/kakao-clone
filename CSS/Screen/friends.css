@@ -42,11 +42,9 @@
 @keyframes hide-splash-screen {
     from {
         opacity:1;
-        height:80vh;
     }
     to {
         opacity:0;
         visibility:hidden;
-        height:200vh;
     }
 }

@@ -31,6 +31,7 @@
     position:absolute; /*absolute를 쓰려면 부모 엘리먼트가 position:relative 여야 할 것.*/
     left: 20px;
     bottom: 16px;
+    animation:notification-animation 2s ease-in-out infinite;
 }
 
 .nav__red-dot {     /* 빨간 점*/
@@ -43,3 +44,41 @@
     left: 25px;
     top: -12px;
 }
+
+@keyframes notification-animation {
+    0% {
+        transform: none;
+    }
+    50% {
+        width: 35px;
+        height: 35px;
+    }
+    100% {
+        transform: none;
+    }
+}
+
+
+@keyframes appear-button {
+    from {
+        opacity:0;
+    }
+    to {
+        transform: none;
+        opacity:1;
+    }
+}
+.nav__btn {
+    transform: translateY(70px);
+    animation:appear-button 1s ease-in-out forwards;
+}
+.nav__btn:nth-child(2){
+    animation-delay: 0.3s;
+}
+.nav__btn:nth-child(3){
+    animation-delay: 0.6s;
+}
+.nav__btn:last-child{
+    animation-delay: 0.9s;
+}
+
