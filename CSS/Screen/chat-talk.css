@@ -97,6 +97,7 @@
     padding: 5px 20px;
     align-items: center;
     box-sizing: border-box;
+    transition:all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
     width:10%;
@@ -112,6 +113,7 @@
     box-sizing: border-box;
     border: 2px solid rgba(0,0,0,0.1);
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,  /* 화살표 버튼 class-A > i의 (>)는 바로 직속 아래에 있는 i를 선택.*/
 .reply__column:last-child button {
@@ -133,3 +135,61 @@
     height: 38px;
     border-radius: 50%;
 }
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+        transform: none;
+    }
+}
+.chat-talk__main {
+    transform: translatey(30px);
+    animation:fadein 0.7s linear forwards;
+}
+
+@keyframes message-intro-left {
+    from {
+        transform: translatex(-200px);
+    }
+    to {
+        transform:none;
+    }
+}
+@keyframes message-intro-right {
+    from {
+            transform: translatex(80px);
+    }
+    to {
+            transform:none;
+    }
+}
+.message__bubble {
+    animation:message-intro-left 1s ease-in-out forwards;
+}
+.message-row--own .message__bubble {
+    animation:message-intro-right 1s ease-in-out forwards;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-face-smile,
+.reply button {
+    transition:opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+    opacity:0;
+}
+.reply:focus-within input {
+    width: 90vw;
+    transform:translatex(-10%) translatey(-80px);
+}
+.reply:focus-within {
+    transform: translatey(80px);
+}
+
+
