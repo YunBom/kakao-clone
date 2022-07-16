@@ -12,7 +12,7 @@
     visibility: hidden;
 }
 
-@media screen and (min-width:645px){
+@media screen and (min-width:800px){
     #no-mobile {
         visibility:visible;
     }
