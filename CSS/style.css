@@ -13,6 +13,7 @@
 @import "Component/red-badge.css";  /* 알람 표시 CSS */
 @import "Component/icons.css";   /* 아이콘 */
 @import "component/alt-screen-header.css"; /*설정, 채팅 다른 header*/
+@import "Component/no-mobile.css";  /* 모바일 화면으로 안내 */
 
 /* Screen 폴더 */
 @import "Screen/login.css"; /*로그인 화면 CSS*/
@@ -23,11 +24,11 @@
 @import "Screen/chat-talk.css"; /* 톡방 화면 */
 
 
-
 body {
-    height:200vh;
     margin-bottom: 90px;
+    overflow-y: scroll;
 }
+
 
 .main-screen {
     padding:0px var(--horizontal-space);
