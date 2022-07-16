@@ -28,7 +28,7 @@
 #splash-screen {
     background-color: var(--yellow);
     position: absolute;
-    height:100vh;
+    height:120vh;
     width:100vw;
     top:0;
     display: flex;
@@ -46,5 +46,6 @@
     to {
         opacity:0;
         visibility:hidden;
+        
     }
 }
