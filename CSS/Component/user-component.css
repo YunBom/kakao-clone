@@ -2,8 +2,15 @@
     justify-content: space-between;
     margin-bottom: 10px;
 }
-
-
+.user-component__text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-component__more-subtitle {
+    display:flex;
+    margin:0;
+}
 .user-component,
 .user-component__column:first-child {
     display:flex;

@@ -1,7 +1,7 @@
 #no-mobile {
     position: absolute;
     z-index:99;
-    height: 100vh;
+    height: 120%;
     width:100vw;
     background-color: var(--yellow);
     display: flex;
@@ -9,10 +9,14 @@
     align-items: center;
     font-size: 30px;
     top:0;
+    visibility: hidden;
 }
 
-@media screen and (max-width:645px){
+@media screen and (min-width:645px){
     #no-mobile {
-        display:none;
+        visibility:visible;
+    }
+    body {
+        height:80vh;
     }
 }
