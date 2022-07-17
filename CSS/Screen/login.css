@@ -80,4 +80,5 @@ input:focus {
     color:inherit;
     font-size: 13px;
     margin-top: 15px;
+    text-decoration: underline;
 }

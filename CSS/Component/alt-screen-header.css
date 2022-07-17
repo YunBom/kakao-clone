@@ -1,5 +1,5 @@
 .alt-header {
-    display:flex;
+    display:flex; /*수정*/
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
