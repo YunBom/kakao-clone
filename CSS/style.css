@@ -12,7 +12,7 @@
 @import "Component/user-component.css"; /* 유저 프로필 CSS - 화면 200vh */
 @import "Component/red-badge.css";  /* 알람 표시 CSS */
 @import "Component/icons.css";   /* 아이콘 */
-@import "component/alt-screen-header.css"; /*설정, 채팅 다른 header*/
+@import "Component/alt-screen-header.css"; /*설정, 채팅 다른 header*/
 @import "Component/no-mobile.css";  /* 모바일 화면으로 안내 */
 
 /* Screen 폴더 */
